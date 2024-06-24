@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    gap: 50px;
+    padding: 15px;
+    background: linear-gradient(to right, rgb(59, 27, 27), rgb(16, 16, 70), rgb(77, 52, 7));
+    color: yellow;
+}
+
+.container1 .brand h1 {
+    margin-left: 20px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Playwrite NZ;
+}
+
+.container1 nav {
+    padding-top: 20px;
+}
+
+.container1 nav a {
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-left: 120px;
+    color: white;
+
+
+}
+
+.container2 {
+    display: flex;
+}
+
+.container2 .image {
+    background-color: rgb(239, 203, 203);
+    padding-right: 350px;
+}
+
+.container2 .bio {
+    position: relative;
+    right: 150px;
+    top: 40px;
+    margin-bottom: 60px;
+    background: linear-gradient(to right, purple, rgb(237, 237, 9));
+    padding: 200px;
+    padding-right: 30px;
+    border: 2px solid purple;
+    border-radius: 50%;
+
+}
+
+.container2 .bio h1 {
+    font-family: Playwrite NZ;
+    font-weight: 900;
+}
+
+.container2 .bio h2 {
+    padding-top: 15px;
+    font-family: Playwrite NZ;
+}
+
+.container3 .about {
+    margin-left: 700px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.container3 .about h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Playwrite NZ;
+}
+
+.container3 .about-dtls {
+    display: flex;
+    margin-left: 350px;
+}
+
+.container3 .about-dtls .card {
+    margin-left: 70px;
+    font-weight: 600;
+
+}
+
+.container3 .card {
+    background: linear-gradient(to right, black, blue);
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 2px solid blue;
+    border-radius: 15px;
+
+}
+
+
+.container4 .skills {
+    margin-left: 250px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-family: Playwrite NZ;
+}
+
+.container4 h1 {
+    font-size: 50px;
+}
+
+.container5 .imgg {
+    margin-left: 259px;
+}
+
+.container5 .Cards {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    bottom: 70px;
+    left: 150px;
+}
+
+.container5 .card {
+    width: 18rem;
+    text-align: center;
+    background: linear-gradient(to right, rgb(33, 110, 85), black);
+    color: white;
+    border: 2px solid aquamarine;
+    border-radius: 15px;
+
+
+
+}
+
+.container5 .card h1 {
+    padding-top: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: initial;
+}
+
+.container5 .card ul li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
