@@ -1,0 +1,24 @@
+.toDo {
+    margin-top: 20vh;
+    margin-left: 30vw;
+
+}
+
+.toDo form {
+    width: 30vw;
+    height: 40vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: linear-gradient(to right, blue, pink);
+}
+
+.toDo form h1 {
+    text-align: center;
+}
+
+.toDo form input {
+    align-items: center;
+    text-align: center;
+    margin-left: 150px;
+    padding: 15px;
+}
