@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(pexels-sebastian-3285733.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: black;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 25px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: red;
+
+}
+
+.conatiner {
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    text-shadow: 10px 15px 5px #555555;
+    margin-top: 200px;
+}
